@@ -199,11 +199,11 @@ const newgameSound = new Audio('sounds/newgame.mp3');
         endGame()
       }
       else if(guess < randomNumber){
-        display("Number is too low 📉")
+        display("Your Number is too low 📉")
         wrongSound.play()
       }
       else if(randomNumber < guess){
-        display("Number is too HIGH! 📈")
+        display("Your Number is too HIGH! 📈")
         wrongSound.play()
       }
    }
